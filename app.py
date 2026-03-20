@@ -15,8 +15,8 @@ ESPRESSO = "#4B230E"
 ROAST = "#D96A13"    
 
 # --- 2. DATA LOADING ---
-DATA_PATH = r"C:\Users\hp\coffee-demand-forecast\data\coffee_sales.csv"
-MODEL_PATH = r"C:\Users\hp\coffee-demand-forecast\models\forecast_model.pkl"
+DATA_PATH = "index.csv" 
+MODEL_PATH = "forecast_model.pkl"
 
 @st.cache_data
 def load_data():
